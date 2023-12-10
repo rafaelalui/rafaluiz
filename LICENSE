@@ -1,21 +1,108 @@
-MIT License
+<header class=”cabecalho”>
+<img class=”cabecalho-imagem” src=”./img/alurastart logo 1.png” alt=”logo da alura
+start”>
+<ul class=”cabecalho-lista-item”>
+<li class=”cabecalho-lista-item”>Estudante</li>
+<li class=”cabecalho-lista-item”>Escola</li>
+</ul>
+Aula4
+Arquivo index.html
+<section class=”escola”>
+<div class=”escola-conteudo”>
+<h2 class=”escola-titulo”>Sobre a Escola</h2>
+<p class=”escola-texto-um”> </p>
+<p class=”escola-texto-dois”></p>
+<img src=”” alt =””>
+</div>
+Aula 5
+Index.html
+</section>
+<section class=”estudante”>
+<h2 class=”estudante-titulo”>Quem são nossos estudantes?</h2>
+<div class=”estudante-div”>
+<img class=”estudante-imagem “src=”./img/Marcelo1.png” alt=”foto do estudante
+Marcelo”>
+<h3>Marcelo</h3>
+<img class=”estudante-icone”src=”./img/instagram.png” alt=”Instagram”>
+<img class=”estudante-icone”src=”./img/github.png” alt=”Github”>
+<img class=”estudante-icone”
+</div>
+</section>
+Arquivo style.css
+* {margin: 0;
+padding: 0;}
+.cabecalho {background-color: #383D58;
 
-Copyright (c) 2023 rafaelalui
+color: white;
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+display:flex;
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+justify-content: space-around;
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+padding: 24px 0;}
+
+.cabecalho-lista-item{
+
+display: inline-block;
+
+margin: 0 16px;
+
+padding: 24px 0;
+
+font-size: 24px;}
+
+body{
+
+font-family:’Poppins’,sans-serif;
+
+}
+
+.estudante-imagem{
+
+width: 120px;
+
+}
+
+.estudante-icone{
+
+width:24px;
+
+}
+
+.estudante-div {
+
+text-align: center;
+
+}
+
+.escola {
+
+background-image: linear-gradient(#383D58,#00c0eb);
+
+color: white;
+
+display:flex;
+
+}
+
+.escola-conteudo{
+
+width: 35%;
+
+display:flex;
+
+justify-content: center;
+
+align-items: center;
+
+}
+
+.escola-imagem{
+
+width:25%;
+
+}.escola-titulo {
+
+padding: 24px 0;
+
+}
